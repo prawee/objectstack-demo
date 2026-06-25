@@ -1,0 +1,10 @@
+allowBuilds:
+  better-sqlite3: set this to true or false
+  esbuild: set this to true or false
+# Allowlist native dependency build scripts so `pnpm install` compiles
+# them (pnpm 10+ blocks build scripts by default). Without this,
+# better-sqlite3 ships uncompiled and `objectstack serve` fails with
+# "Could not locate the bindings file".
+onlyBuiltDependencies:
+  - better-sqlite3
+  - esbuild
