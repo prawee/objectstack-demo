@@ -11,10 +11,11 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@objectstack/spec": "^10.3.0",
-    "@objectstack/runtime": "^10.3.0",
+    "@objectstack/driver-memory": "^10.3.0",
     "@objectstack/objectql": "^10.3.0",
-    "@objectstack/driver-memory": "^10.3.0"
+    "@objectstack/runtime": "^10.3.0",
+    "@objectstack/spec": "^10.3.0",
+    "pg": "^8.22.0"
   },
   "devDependencies": {
     "@objectstack/cli": "^10.3.0",
